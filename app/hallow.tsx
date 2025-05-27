@@ -23,7 +23,7 @@ export default function AnoNovo() {
             <FontAwesome name="chevron-left" size={24} color="#242424" />
           </TouchableOpacity>
 
-          <Text style={styles.paragraph}>Ano Novo</Text>
+          <Text style={styles.paragraph}> Receitas de Halloween</Text>
         </View>
         <View style={styles.branco}>
           <View>
@@ -32,16 +32,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 1")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/funfoHalow.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>
-                Espetinhos Tropicais caramelizado
-              </Text>
+              <Text style={styles.texto}>Dedos de Zumbi de Biscoito</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/6043408/pexels-photo-6043408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/5604229/pexels-photo-5604229.jpeg",
                 }}
                 style={styles.cardImage}
               />
@@ -53,14 +51,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 2")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/funfoHalow.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>Salada de Lentilha</Text>
+              <Text style={styles.texto}>almas Assustadas de batata</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/6066041/pexels-photo-6066041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/5581088/pexels-photo-5581088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
@@ -72,14 +70,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 3")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/funfoHalow.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>Mocktail de Abacaxi</Text>
+              <Text style={styles.texto}>Capcake de abóbora envenenada</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/24870651/pexels-photo-24870651/free-photo-of-saudavel-verao-textura-coquetel.jpeg",
+                  uri: "https://images.pexels.com/photos/5633822/pexels-photo-5633822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
@@ -91,16 +89,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 4")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/funfoHalow.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>
-                Bolinho de Bacalhau com Batata Doce
-              </Text>
+              <Text style={styles.texto}>Biscoito de mosntruosos</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/14734398/pexels-photo-14734398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/5634612/pexels-photo-5634612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />

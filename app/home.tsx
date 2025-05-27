@@ -8,7 +8,8 @@ import {
     StyleSheet,
     Text,
     TouchableOpacity,
-    View
+    View,
+    
 } from 'react-native';
 import Tooltip from 'react-native-walkthrough-tooltip';
 

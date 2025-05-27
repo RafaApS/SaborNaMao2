@@ -23,7 +23,10 @@ export default function AnoNovo() {
             <FontAwesome name="chevron-left" size={24} color="#242424" />
           </TouchableOpacity>
 
-          <Text style={styles.paragraph}>Ano Novo</Text>
+          <Text style={styles.paragraph}>
+            {" "}
+            Receitas de Aperitivos para festas
+          </Text>
         </View>
         <View style={styles.branco}>
           <View>
@@ -32,16 +35,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 1")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/fundoAp.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>
-                Espetinhos Tropicais caramelizado
-              </Text>
+              <Text style={styles.texto}>Caprese no Palito</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/6043408/pexels-photo-6043408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/28548859/pexels-photo-28548859/free-photo-of-delicioso-prato-de-aperitivos-com-tomate-e-queijo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
@@ -53,14 +54,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 2")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/fundoAp.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>Salada de Lentilha</Text>
+              <Text style={styles.texto}>Rolinho de Presunto com Melão</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/6066041/pexels-photo-6066041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/19409026/pexels-photo-19409026/free-photo-of-comida-alimento-refeicao-placa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
@@ -72,14 +73,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 3")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/fundoAp.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>Mocktail de Abacaxi</Text>
+              <Text style={styles.texto}>Canapés de Patê com Torradinhas</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/24870651/pexels-photo-24870651/free-photo-of-saudavel-verao-textura-coquetel.jpeg",
+                  uri: "https://images.pexels.com/photos/30648981/pexels-photo-30648981/free-photo-of-pao-minimalista-e-queijo-flat-lay.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
@@ -91,16 +92,14 @@ export default function AnoNovo() {
               onPress={() => console.log("Botão 4")}
             >
               <ImageBackground
-                source={require("../assets/images/fundoAno.jpg")} // Imagem de fundo
+                source={require("../assets/images/fundoAp.jpg")} // Imagem de fundo
                 style={styles.backgroundImage}
                 resizeMode="cover"
               ></ImageBackground>
-              <Text style={styles.texto}>
-                Bolinho de Bacalhau com Batata Doce
-              </Text>
+              <Text style={styles.texto}>Bolinha de Queijo com Bacon</Text>
               <Image
                 source={{
-                  uri: "https://images.pexels.com/photos/14734398/pexels-photo-14734398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                  uri: "https://images.pexels.com/photos/166031/pexels-photo-166031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                 }}
                 style={styles.cardImage}
               />
